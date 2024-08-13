@@ -1,6 +1,6 @@
 This repository showcases two issues I have with devenv's composition feature.
 
-This repository contains a top-level devenv project that imports the devenv `subproject`. `subproject` is a python/poetry project with `dbt` as a dependency.
+This repository contains a top-level devenv project that imports `subproject`. `subproject` is a devenv/python/poetry project with `dbt` as a dependency.
 
 The two issues I have are:
 - In the top-level project, I receive the message "No pyproject.toml found. Run 'poetry init' to create one." because devenv seems to start poetry in the top-level project.
